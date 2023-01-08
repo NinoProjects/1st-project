@@ -1,0 +1,42 @@
+html{
+ background: lightgrey;
+ }
+h1{
+ color: red;
+ text-align: center;
+ }
+p{
+ width: 300px;
+ padding: 20px;
+ color: darkblue;
+ border: solid 3px;
+ margin: 20px;
+ font-size: 20px;
+}
+a{
+ color: darkgreen;
+ line-height: 1.8;
+ font-size: 19px;
+}
+ul{
+ font-size: 22px;
+ color: purple;
+ list-style-type: square;
+ list-style-position: inside;
+}
+td, table, th, tr{
+ border: solid;
+ border-collapse: collapse;
+ color: brown;
+ padding: 15px;
+ width: 600px;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+ h1{color: green;}
+ P{color: red; margin: 10px; font-size: 24px;}
+ a{color:grey; font-size: 20px;}
+ html{background: white;}
+ ul{color: purple; list-style-type: circle;}
+ td,th,tr{color:blue;}
+}
+ 
